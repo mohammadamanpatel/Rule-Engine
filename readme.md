@@ -4,37 +4,37 @@ This project consists of a Rule Engine backend and a React frontend built with V
 
 Folder Structure
 
-rule-engine/
-├── rule-engine-backend/       # Backend application
-│   ├── config/                # Configuration files
-│   ├── controllers/           # Controller logic for handling requests
-│   ├── models/                # Mongoose models for MongoDB
-│   ├── node_modules/          # Contains all npm dependencies
-│   ├── routes/                # API route definitions
-│   ├── .env                   # Environment variables
-│   ├── package-lock.json      # npm package lock file
-│   ├── package.json           # npm package file with dependencies and scripts
-│   └── server.js              # Main entry point for the backend application
-│
-└── rule-engine-frontend/      # Frontend application
-    ├── node_modules/          # Contains all npm dependencies
-    ├── public/                # Static assets and public files
-    │   └── index.html         # Main HTML file
-    ├── src/                   # Main source code for the application
-    │   ├── assets/            # Images and other static assets
-    │   ├── components/        # React components for the application
-    │   ├── config/            # Configuration files
-    │   └── redux/             # Redux setup and store management
-    ├── .gitignore             # Files and directories to be ignored by Git
-    ├── eslint.config.js       # ESLint configuration file
-    ├── index.html             # Entry point for the application
-    ├── package-lock.json      # npm package lock file
-    ├── package.json           # npm package file with dependencies and scripts
-    ├── postcss.config.js      # PostCSS configuration file
-    ├── README.md              # Project documentation
-    ├── tailwind.config.js     # Tailwind CSS configuration file
-    └── vite.config.js         # Vite configuration file
-
+├── rule-engine/
+├── ├── rule-engine-backend/       # Backend application
+├── │   ├── config/                # Configuration files
+├── │   ├── controllers/           # Controller logic for handling requests
+├── │   ├── models/                # Mongoose models for MongoDB
+├── │   ├── node_modules/          # Contains all npm dependencies
+├── │   ├── routes/                # API route definitions
+├── │   ├── .env                   # Environment variables
+├── │   ├── package-lock.json      # npm package lock file
+├── │   ├── package.json           # npm package file with dependencies and scripts
+├── │   └── server.js              # Main entry point for the backend application
+├── │
+└── └── rule-engine-frontend/      # Frontend application/
+    ├── ├── node_modules/          # Contains all npm dependencies
+    ├── ├── public/                # Static assets and public files
+    ├── │   └── index.html         # Main HTML file
+    ├── ├── src/                   # Main source code for the application
+    ├── │   ├── assets/            # Images and other static assets
+    ├── │   ├── components/        # React components for the application
+    ├── │   ├── config/            # Configuration files
+    ├── │   └── redux/             # Redux setup and store management
+    ├── ├── .gitignore             # Files and directories to be ignored by Git
+    ├── ├── eslint.config.js       # ESLint configuration file
+    ├── ├── index.html             # Entry point for the application
+    ├── ├── package-lock.json      # npm package lock file
+    ├── ├── package.json           # npm package file with dependencies and scripts
+    ├── ├── postcss.config.js      # PostCSS configuration file
+    ├── ├── README.md              # Project documentation
+    ├── ├── tailwind.config.js     # Tailwind CSS configuration file
+    └── └── vite.config.js         # Vite configuration file
+    
 Getting Started
 
 Prerequisites
