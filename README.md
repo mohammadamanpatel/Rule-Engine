@@ -17,23 +17,23 @@ rule-engine/
 │   └── server.js              # Main entry point for the backend application
 │
 └── rule-engine-frontend/      # Frontend application
-├── ├── node_modules/          # Contains all npm dependencies
-├── ├── public/                # Static assets and public files
-├── │   └── index.html         # Main HTML file
-├── ├── src/                   # Main source code for the application
-├── │   ├── assets/            # Images and other static assets
-├── │   ├── components/        # React components for the application
-├── │   ├── config/            # Configuration files
-├── │   └── redux/             # Redux setup and store management
-├── ├── .gitignore             # Files and directories to be ignored by Git
-├── ├── eslint.config.js       # ESLint configuration file
-├── ├── index.html             # Entry point for the application
-├── ├── package-lock.json      # npm package lock file
-├── ├── package.json           # npm package file with dependencies and scripts
-├── ├── postcss.config.js      # PostCSS configuration file
-├── ├── README.md              # Project documentation
-├── ├── tailwind.config.js     # Tailwind CSS configuration file
-└── └── vite.config.js         # Vite configuration file
+    ├── node_modules/          # Contains all npm dependencies
+    ├── public/                # Static assets and public files
+    │   └── index.html         # Main HTML file
+    ├── src/                   # Main source code for the application
+    │   ├── assets/            # Images and other static assets
+    │   ├── components/        # React components for the application
+    │   ├── config/            # Configuration files
+    │   └── redux/             # Redux setup and store management
+    ├── .gitignore             # Files and directories to be ignored by Git
+    ├── eslint.config.js       # ESLint configuration file
+    ├── index.html             # Entry point for the application
+    ├── package-lock.json      # npm package lock file
+    ├── package.json           # npm package file with dependencies and scripts
+    ├── postcss.config.js      # PostCSS configuration file
+    ├── README.md              # Project documentation
+    ├── tailwind.config.js     # Tailwind CSS configuration file
+    └── vite.config.js         # Vite configuration file
     
 Getting Started
 
