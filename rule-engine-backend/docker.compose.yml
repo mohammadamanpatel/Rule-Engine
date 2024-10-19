@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  rule-engine-backend:
+    build: .
+    ports:
+      - "${PORT}:${PORT}"  # Map the container's port to the host's port
+    environment:
+      - MONGO_URL=${MONGO_URL}  # Use the environment variable from your .env file
+      - PORT=${PORT}  # Pass the port to the container
+    volumes:
+      - .:/usr/src/app  # Mount the current directory to the app directory in the container
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db  # Persist MongoDB data
+
+volumes:
+  mongo-data:
