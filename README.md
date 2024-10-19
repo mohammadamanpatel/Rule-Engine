@@ -1,5 +1,3 @@
-Here's a well-formatted version of your project documentation, including the folder structure and the instructions for getting started with the Rule Engine project. This layout should help maintain clarity and organization.
-
 ---
 
 # Rule Engine Project
