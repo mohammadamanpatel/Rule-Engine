@@ -4,7 +4,7 @@
 
 This project consists of a Rule Engine backend and a React frontend built with Vite. The backend handles the rule processing logic, while the frontend provides an interactive user interface for users to interact with the engine.
 
-## Folder Structure
+Folder Structure
 
 ```
 rule-engine/
@@ -39,16 +39,16 @@ rule-engine/
     └── vite.config.js         # Vite configuration file
 ```
 
-## Getting Started
+Getting Started
 
-### Prerequisites
+Prerequisites
 
 Make sure you have the following installed:
 
 - Node.js (v18 or higher)
 - npm (comes with Node.js)
 
-### Installation
+Installation
 
 1. Clone the repository:
 
@@ -71,9 +71,9 @@ Make sure you have the following installed:
    npm install
    ```
 
-### Running the Applications
+Running the Applications
 
-#### Backend
+Backend
 
 To start the backend server, use the following command:
 
@@ -83,7 +83,7 @@ npm start
 
 This will start the backend server on the port specified in the `.env` file.
 
-#### Frontend
+Frontend
 
 To start the frontend development server, navigate to the frontend directory and use the following command:
 
@@ -93,9 +93,9 @@ npm run dev
 
 This will start the application on [http://localhost:5173](http://localhost:5173). You can view it in your web browser.
 
-### Building for Production
+Building for Production
 
-#### Backend
+Backend
 
 To build the backend for production, make sure you have set the appropriate environment variables in the `.env` file. Then, you can run:
 
@@ -103,7 +103,7 @@ To build the backend for production, make sure you have set the appropriate envi
 npm run build
 ```
 
-#### Frontend
+Frontend
 
 To build the frontend application for production, run:
 
@@ -113,7 +113,7 @@ npm run build
 
 This command will create an optimized production build in the `dist` folder.
 
-### Linting
+Linting
 
 To check for linting errors for both frontend and backend, use the following commands:
 
@@ -129,7 +129,7 @@ npm run lint
 npm run lint
 ```
 
-### Previewing the Build
+Previewing the Build
 
 **Frontend**
 
@@ -139,7 +139,7 @@ To preview the production build locally, run:
 npm run preview
 ```
 
-### Scripts
+Scripts
 
 | Command (Frontend) | Description                                      |
 |--------------------|--------------------------------------------------|
@@ -154,10 +154,8 @@ npm run preview
 | `npm run build`    | Builds the backend application for production     |
 | `npm run lint`     | Runs ESLint to check for errors (if applicable)  |
 
-## Contributing
+Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
 
 ---
-
-This structured document should help you maintain clarity in your project. Let me know if you need any further adjustments or additions!
