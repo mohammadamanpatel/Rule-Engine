@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
 
 mongoose.set('strictQuery', false) 
-// maanlo conn nhi hua to ye fn use ignore kardega aur error nhi aa paayega
 
 const DBConnection = async () => {
     try {
