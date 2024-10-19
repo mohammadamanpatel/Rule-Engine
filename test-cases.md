@@ -1,6 +1,6 @@
 ---
 
-# Rule Engine Project
+# Rule Engine Project Test Cases
 
 Test Cases
 
@@ -246,7 +246,7 @@ isEligible: `true`
    const userData = { age: 28, salary: 48000 };
    ```
 
-   Result: `true`
+   isEligible: `true`
 
 2. Input Rule:
 
@@ -260,7 +260,7 @@ isEligible: `true`
    const userData = { department: "HR", experience: 3 };
    ```
 
-   Result: `true`
+   isEligible: `true`
 
 3. Input Rule:
 
