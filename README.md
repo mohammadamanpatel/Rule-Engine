@@ -1,9 +1,14 @@
-Rule Engine Project
+Here's a well-formatted version of your project documentation, including the folder structure and the instructions for getting started with the Rule Engine project. This layout should help maintain clarity and organization.
+
+---
+
+# Rule Engine Project
 
 This project consists of a Rule Engine backend and a React frontend built with Vite. The backend handles the rule processing logic, while the frontend provides an interactive user interface for users to interact with the engine.
 
-Folder Structure
+## Folder Structure
 
+```
 rule-engine/
 ├── rule-engine-backend/       # Backend application
 │   ├── config/                # Configuration files
@@ -34,103 +39,127 @@ rule-engine/
     ├── README.md              # Project documentation
     ├── tailwind.config.js     # Tailwind CSS configuration file
     └── vite.config.js         # Vite configuration file
-    
-Getting Started
+```
 
-Prerequisites
+## Getting Started
+
+### Prerequisites
 
 Make sure you have the following installed:
 
 - Node.js (v18 or higher)
 - npm (comes with Node.js)
 
-Installation
+### Installation
 
 1. Clone the repository:
 
+   ```bash
    git clone https://github.com/mohammadamanpatel/Rule-Engine/
    cd rule-engine
+   ```
 
 2. For the backend, navigate to the backend directory and install the dependencies:
 
+   ```bash
    cd rule-engine-backend
    npm install
+   ```
 
 3. For the frontend, navigate to the frontend directory and install the dependencies:
 
+   ```bash
    cd ../rule-engine-frontend
    npm install
+   ```
 
-Running the Applications
+### Running the Applications
 
-Backend
+#### Backend
 
 To start the backend server, use the following command:
 
+```bash
 npm start
+```
 
-This will start the backend server on the port specified in the .env file.
+This will start the backend server on the port specified in the `.env` file.
 
-Frontend
+#### Frontend
 
 To start the frontend development server, navigate to the frontend directory and use the following command:
 
+```bash
 npm run dev
+```
 
-This will start the application on http://localhost:5173. You can view it in your web browser.
+This will start the application on [http://localhost:5173](http://localhost:5173). You can view it in your web browser.
 
-Building for Production
+### Building for Production
 
-Backend
+#### Backend
 
-To build the backend for production, make sure you have set the appropriate environment variables in the .env file. Then, you can run:
+To build the backend for production, make sure you have set the appropriate environment variables in the `.env` file. Then, you can run:
 
+```bash
 npm run build
+```
 
-Frontend
+#### Frontend
 
 To build the frontend application for production, run:
 
+```bash
 npm run build
+```
 
-This command will create an optimized production build in the dist folder.
+This command will create an optimized production build in the `dist` folder.
 
-Linting
+### Linting
 
 To check for linting errors for both frontend and backend, use the following commands:
 
-Frontend:
+**Frontend:**
 
+```bash
 npm run lint
+```
 
-Backend (if you have a lint script in the backend package.json):
+**Backend** (if you have a lint script in the backend `package.json`):
 
+```bash
 npm run lint
+```
 
-Previewing the Build
+### Previewing the Build
 
-Frontend
+**Frontend**
 
 To preview the production build locally, run:
 
+```bash
 npm run preview
+```
 
-Scripts
+### Scripts
 
 | Command (Frontend) | Description                                      |
 |--------------------|--------------------------------------------------|
-| npm run dev        | Starts the development server                    |
-| npm run build      | Builds the application for production             |
-| npm run lint       | Runs ESLint to check for errors                  |
-| npm run preview    | Previews the production build                     |
+| `npm run dev`      | Starts the development server                    |
+| `npm run build`    | Builds the application for production             |
+| `npm run lint`     | Runs ESLint to check for errors                  |
+| `npm run preview`  | Previews the production build                     |
 
 | Command (Backend)  | Description                                      |
 |--------------------|--------------------------------------------------|
-| npm start          | Starts the backend server                         |
-| npm run build      | Builds the backend application for production     |
-| npm run lint       | Runs ESLint to check for errors (if applicable)  |
+| `npm start`        | Starts the backend server                         |
+| `npm run build`    | Builds the backend application for production     |
+| `npm run lint`     | Runs ESLint to check for errors (if applicable)  |
 
-Contributing
+## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
 
+---
+
+This structured document should help you maintain clarity in your project. Let me know if you need any further adjustments or additions!
