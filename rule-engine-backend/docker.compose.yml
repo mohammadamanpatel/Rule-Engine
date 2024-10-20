@@ -12,8 +12,9 @@ services:
       - PORT=${PORT}
     volumes:
       - .:/usr/src/app
+      - /usr/src/app/node_modules  # Prevent overwriting node_modules
     depends_on:
-      - mongo      # Ensures the MongoDB service is started before the backend
+      - mongo
 
   mongo:
     image: mongo
