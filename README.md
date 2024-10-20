@@ -215,7 +215,7 @@ Design Choices
 Technologies Used
 
 - Backend: The backend is built using Node.js and Express to handle the rule processing and API requests. MongoDB with Mongoose is used as the database for storing rules and user data.
-- Frontend: The frontend is developed using React with Vite for fast development and bundling. Redux is used for state management.
+- Frontend: The frontend is developed using React with Vite for fast development and bundling. Redux is used for state management. Tailwind css is used for styling the components.
 - Rule Engine: The core logic for processing rules is handled on the backend. Each rule is parsed and evaluated dynamically based on user-defined conditions.
 
 Rule Engine Structure
