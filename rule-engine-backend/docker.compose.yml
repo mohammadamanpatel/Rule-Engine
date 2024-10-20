@@ -2,21 +2,25 @@ version: '3.8'
 
 services:
   rule-engine-backend:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "${PORT}:${PORT}"  # Map the container's port to the host's port
+      - "${PORT}:${PORT}"
     environment:
-      - MONGO_URL=${MONGO_URL}  # Use the environment variable from your .env file
-      - PORT=${PORT}  # Pass the port to the container
+      - MONGO_URL=${MONGO_URL}
+      - PORT=${PORT}
     volumes:
-      - .:/usr/src/app  # Mount the current directory to the app directory in the container
+      - .:/usr/src/app
+    depends_on:
+      - mongo      # Ensures the MongoDB service is started before the backend
 
   mongo:
     image: mongo
     ports:
       - "27017:27017"
     volumes:
-      - mongo-data:/data/db  # Persist MongoDB data
+      - mongo-data:/data/db
 
 volumes:
   mongo-data:
