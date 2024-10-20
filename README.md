@@ -8,34 +8,44 @@ Folder Structure
 
 ```
 rule-engine/
-├── rule-engine-backend/       # Backend application
-│   ├── config/                # Configuration files
-│   ├── controllers/           # Controller logic for handling requests
-│   ├── models/                # Mongoose models for MongoDB
-│   ├── node_modules/          # Contains all npm dependencies
-│   ├── routes/                # API route definitions
-│   ├── .env                   # Environment variables
-│   ├── package-lock.json      # npm package lock file
-│   ├── package.json           # npm package file with dependencies and scripts
-│   └── server.js              # Main entry point for the backend application
+├── rule-engine-backend/            # Backend application
+│   ├── config/                     # Configuration files
+│   │   ├── DbConnection.js         # Mongoose connection logic
+│   ├── controllers/                # Controller logic for handling requests
+│   │   ├── Rule.controller.js      # Controller for rule-related operations
+│   ├── models/                     # Mongoose models for MongoDB
+│   │   ├── Rule.model.js           # Mongoose schema for rules
+│   ├── node_modules/               # Contains all npm dependencies
+│   ├── routes/                     # API route definitions
+│   │   ├── rule.routes.js          # Routes for rule operations
+│   ├── .env                        # Environment variables
+│   ├── package-lock.json           # npm package lock file
+│   ├── package.json                # npm package file with dependencies and scripts
+│   └── server.js                   # Main entry point for the backend application
 │
-└── rule-engine-frontend/      # Frontend application
-    ├── node_modules/          # Contains all npm dependencies
-    ├── public/                # Static assets and public files
-    │   └── index.html         # Main HTML file
-    ├── src/                   # Main source code for the application
-    │   ├── assets/            # Images and other static assets
-    │   ├── components/        # React components for the application
-    │   ├── config/            # Configuration files
-    │   └── redux/             # Redux setup and store management
-    ├── .gitignore             # Files and directories to be ignored by Git
-    ├── eslint.config.js       # ESLint configuration file
-    ├── index.html             # Entry point for the application
-    ├── package-lock.json      # npm package lock file
-    ├── package.json           # npm package file with dependencies and scripts
-    ├── postcss.config.js      # PostCSS configuration file
-    ├── tailwind.config.js     # Tailwind CSS configuration file
-    └── vite.config.js         # Vite configuration file
+└── rule-engine-frontend/           # Frontend application
+    ├── node_modules/               # Contains all npm dependencies
+    ├── public/                     # Static assets and public files
+    │   └── index.html              # Main HTML file
+    ├── src/                        # Main source code for the application
+    │   ├── assets/                 # Images and other static assets
+    │   ├── components/             # React components for the application
+    │   │   ├── Create-rule.jsx     # Form for adding/editing rules
+    │   │   ├── Combine-rule.jsx    # List component for displaying rules
+    │   │   └── Evaluate-rule.jsx   # Component for user profile
+    │   ├── config/                 # Configuration files
+    │   │   └── axiosInstance.js    # axios instance file for post,get requests
+    │   ├── redux/                  # Redux setup and store management
+    │   │   │   ├── Rule-slice.js   # Reducer for rule
+    │   │   │   └── store.js        # Redux store setup
+    │   ├── .gitignore              # Files and directories to be ignored by Git
+    │   ├── eslint.config.js        # ESLint configuration file
+    │   ├── index.html              # Entry point for the application
+    │   ├── package-lock.json       # npm package lock file
+    │   ├── package.json            # npm package file with dependencies and scripts
+    │   ├── postcss.config.js       # PostCSS configuration file
+    │   ├── tailwind.config.js      # Tailwind CSS configuration file
+    │   └── vite.config.js          # Vite configuration file 
 ```
 
 Getting Started
