@@ -49,6 +49,43 @@ rule-engine/
 ```
 
 Getting Started
+---
+Features
+
+1. Rule Creation and Management
+   - Create, read, update, and delete (CRUD) rules through a user-friendly interface.
+   - Each rule includes customizable conditions and actions, enabling tailored rule behaviors.
+
+2. Dynamic Rule Evaluation
+   - Rules are parsed into Abstract Syntax Trees (ASTs) on the backend for efficient evaluation.
+   - Supports complex conditions and validations to ensure accurate rule processing.
+
+3. Rule Combination
+   - Combine multiple rules to create complex conditional workflows.
+   - Allows for nested conditions, providing greater flexibility and scalability.
+
+4. Rule Execution History
+   - Track rule executions with a history log, detailing triggers and actions taken.
+   - Analyze rule performance over time by reviewing the evaluation history.
+
+5. Interactive Frontend Interface
+   - React-based frontend with Vite for a fast and responsive user experience.
+   - Redux state management for seamless data flow, and Tailwind CSS for a modern, responsive UI.
+
+6. API and Integration
+   - RESTful API endpoints for rule management and evaluation, supporting external integrations.
+   - Node.js and Express backend with MongoDB for scalable and reliable data storage.
+
+7. Robust Validation and Error Handling
+   - Input validations and detailed error messages guide users through rule creation.
+   - Backend validations ensure all conditions and actions are valid before processing.
+
+8. Docker Support
+   - Docker and `docker-compose.yml` file included for easy setup and deployment.
+   - Runs the backend, frontend, and MongoDB in containerized environments for consistent development and production experiences.
+---
+
+These features provide a comprehensive and scalable rule management system with an intuitive interface and powerful backend processing.
 
 Prerequisites
 
