@@ -280,9 +280,5 @@ docker-compose up --build
 
 This will start the backend, frontend, and MongoDB containers. You can access the frontend at [http://localhost:5173](http://localhost:5173) and the backend API at [http://localhost:5000](http://localhost:5000).
 
-Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
-
 ---
 
