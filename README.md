@@ -4,7 +4,7 @@ Rule Engine Project
 
 This project consists of a Rule Engine backend and a React frontend built with Vite. The backend handles the rule processing logic, while the frontend provides an interactive user interface for users to interact with the engine.
 
-Folder Structure
+Folder Structure:-
 
 ```
 rule-engine/
